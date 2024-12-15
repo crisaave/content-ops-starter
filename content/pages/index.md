@@ -211,7 +211,7 @@ sections:
       - url: /images/Logo Mathiesen.png
         altText: Contentful logo
         type: ImageBlock
-      - url: /images/sanity-logo.svg
+      - url: /images/Logo CMPC.png
         altText: Sanity logo
         type: ImageBlock
       - url: /images/rangle-logo.svg
