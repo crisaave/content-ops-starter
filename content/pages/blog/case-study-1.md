@@ -87,7 +87,10 @@ styles:
     flexDirection: col
 type: PostLayout
 ---
-## Dado una serie de n nodos y distancias para cada par de nodos, la idea es encontrar un viaje de ida y vuelta que tome la menor distancia pero que visite cada nodo exactamente una sola vez (ojo que la distancia del nodo i al j es la misma que del j al i).
+Dado una serie de n nodos y distancias para cada par de nodos, la idea es encontrar un viaje de ida y vuelta que tome la menor distancia pero que visite cada nodo exactamente una sola vez (ojo que la distancia del nodo i al j es la misma que del j al i).
+
+
+#### Dado una serie de n nodos y distancias para cada par de nodos, la idea es encontrar un viaje de ida y vuelta que tome la menor distancia pero que visite cada nodo exactamente una sola vez (ojo que la distancia del nodo i al j es la misma que del j al i).
 
 .
 
@@ -98,8 +101,6 @@ type: PostLayout
 Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum
 
 <https://docs.google.com/spreadsheets/d/1YUo-K9_79w55Nyk0tZihLzLBpsHY_Ij9/edit?usp=sharing&ouid=117160480656857669696&rtpof=true&sd=true>
-
-
 
 ```
 #Se importan las librerias necesarias
