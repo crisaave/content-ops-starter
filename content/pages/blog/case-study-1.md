@@ -97,7 +97,7 @@ Para acceder a datos de diversas ciudades, se recomienda el siguiente link:
 
 [http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)
 
-Y para el caso particular de este problema, los datos de se puede extraer desde aca:
+Y para el caso particular de este problema (BURMA), los datos de se puede extraer desde aca:
 
 <https://docs.google.com/spreadsheets/d/1YUo-K9_79w55Nyk0tZihLzLBpsHY_Ij9/edit?usp=sharing&ouid=117160480656857669696&rtpof=true&sd=true>
 
@@ -167,13 +167,7 @@ return mejor_ruta, mejor_longitud
 
 ```
 
-
-
 En este caso particular, la secuencia de ciudades recomendada por el programa es la siguiente : \[13, 2, 3, 4, 6, 12, 7, 10, 9, 8, 0, 1, 11, 5]
 Y su longitud total recorrida es de 34.91
 
-De forma grafica, se puede ver la secuencia, indicando la ciudad de inicio del viaje (ciudad 13) y su posterior secuencia hasta llegar el fin del recorido (ciudad 5).
-
-![](/images/ruta_viajero.jpg)
-
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+De forma grafica, se puede ver dicha secuencia, indicando la ciudad de inicio del viaje (ciudad 13) y su posterior camino hasta llegar el fin del recorrido (ciudad 5).![](/images/ruta_viajero.jpg)
