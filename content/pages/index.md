@@ -22,6 +22,15 @@ sections:
         elementId: ''
         type: Button
       - type: Link
+        label: GitHub
+        altText: GitHub
+        url: 'https://github.com/crisaave'
+        showIcon: true
+        icon: github
+        iconPosition: left
+        style: secondary
+        elementId: ''
+      - type: Link
         label: LinkedIn
         altText: LinkedIn
         url: www.linkedin.com/in/cristian-saavedra-flores-78849822
