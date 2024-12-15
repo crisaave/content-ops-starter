@@ -214,7 +214,6 @@ print(f"La mejor ruta encontrada: {mejor_ruta}")
 print(f"Longitud total de la ruta: {longitud_total}")
 ```
 
-
 En este caso particular, la secuencia de ciudades recomendada por el programa es la siguiente : \[13, 2, 3, 4, 6, 12, 7, 10, 9, 8, 0, 1, 11, 5]
 Y su longitud total recorrida es de 34.91
 
@@ -225,9 +224,6 @@ De forma grafica, se puede ver dicha secuencia, indicando la ciudad de inicio de
 def visualizar_ruta(ruta):
 coords = df_stp[['coord i', 'coord j']].values
 ruta_coords = coords[ruta]
-```
-
-```
 plt.figure(figsize=(10, 6))
 plt.plot(ruta_coords[:, 0], ruta_coords[:, 1], marker='o', linestyle='-', color='b')
 
@@ -240,7 +236,6 @@ plt.text(ruta_coords[0, 0], ruta_coords[0, 1], 'Inicio', fontsize=12, ha='right'
 
 #Etiqueta para el punto de llegada
 plt.text(ruta_coords[-1, 0], ruta_coords[-1, 1], 'Fin', fontsize=12, ha='right', color='red')
-
 plt.title("Ruta del Viajero")
 plt.xlabel("Coordenada X")
 plt.ylabel("Coordenada Y")
@@ -257,4 +252,3 @@ visualizar_ruta(mejor_ruta)
 ```
 
 ![](/images/ruta_viajero.jpg)
-
