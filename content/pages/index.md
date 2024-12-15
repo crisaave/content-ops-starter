@@ -715,7 +715,7 @@ sections:
       text: Datos de Contacto
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: ''
     text: >
       Si quieres conversar de los Proyectos de **Ciencia de Datos** o de otros
       temas relacionados con **Química Papelera,** **Pulp & Paper (Packaging,
