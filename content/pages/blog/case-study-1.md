@@ -1,5 +1,5 @@
 ---
-title: Salesman Travel Problem con Algoritmo Genetico
+title: Salesman Travel Problem con Algoritmo Genético
 slug: case-study-1
 date: '2022-01-05'
 excerpt: >-
