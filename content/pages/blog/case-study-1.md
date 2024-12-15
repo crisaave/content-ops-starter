@@ -97,17 +97,17 @@ Dado una serie de n nodos y distancias para cada par de nodos, la idea es encont
 >
 > *By Clara White - VP of Marketing*
 
+Para acceder a datos de diversas ciudades, se recomienda el siguiente link:
 
+[http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)
 
-Para acceder a a una serie de datos
-
-http\://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/
-
-<http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/>
-
-En el caso particular de este problema, los datos de se puede extraer del link adjunto
+Y para el caso particular de este problema, los datos de se puede extraer desde aca:
 
 <https://docs.google.com/spreadsheets/d/1YUo-K9_79w55Nyk0tZihLzLBpsHY_Ij9/edit?usp=sharing&ouid=117160480656857669696&rtpof=true&sd=true>
+
+Con dichos datos, se procede a construir el código en Phyton, usando Jupyternotebook
+
+
 
 ```
 #Se importan las librerias necesarias
