@@ -30,6 +30,15 @@ sections:
         iconPosition: left
         style: secondary
         elementId: ''
+      - type: Link
+        label: GitHub
+        altText: GitHub
+        url: 'https://github.com/crisaave'
+        showIcon: true
+        icon: github
+        iconPosition: left
+        style: secondary
+        elementId: ''
       - label: See Tutorials
         altText: ''
         url: /
