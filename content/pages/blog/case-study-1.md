@@ -105,21 +105,14 @@ Y para el caso particular de este problema, los datos de se puede extraer desde 
 
 <https://docs.google.com/spreadsheets/d/1YUo-K9_79w55Nyk0tZihLzLBpsHY_Ij9/edit?usp=sharing&ouid=117160480656857669696&rtpof=true&sd=true>
 
-Con dichos datos, se procede a construir el código en Phyton, usando Jupyternotebook
-
-
+Con dichos datos, se procede a construir el código en Phyton, usando Jupyter Notebook:
 
 ```
 #Se importan las librerias necesarias
-import pandas as pd
-import random
-import numpy as np
-from matplotlib import pyplot as plt
 ```
 
 ```
 #Se leen los archivos de Excel (los archivos estan en el mismo directorio que el de este JupyterNotebook)
-df_stp = pd.read_excel('Ciudad Burma.xlsx')
 ```
 
 ```
@@ -130,17 +123,62 @@ return np.sqrt((coord1[0] - coord2[0])**2 + (coord1[1] - coord2[1])**2)
 
 ```
 #Crear la matriz de distancias
-num_ciudades = len(df_stp)
-distancias = np.zeros((num_ciudades, num_ciudades))
-for i in range(num_ciudades):
-for j in range(num_ciudades):
-if i != j:
-coord1 = (df_stp['coord i'][i], df_stp['coord j'][i])
-coord2 = (df_stp['coord i'][j], df_stp['coord j'][j])
-distancias[i][j] = calcular_distancia(coord1, coord2)
 ```
 
-ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus teger vel convallis justo.
+```
+#Crossover
+```
+
+```
+fill_index = (punto2) % num_ciudades  # Comenzar en el final del segmento copiado
+for ciudad in padre2:
+    if ciudad not in hijo:
+        while hijo[fill_index] != -1:
+            fill_index = (fill_index + 1) % num_ciudades
+        hijo[fill_index] = ciudad
+
+return hijo
+
+
+```
+
+```
+#Algoritmo Genético
+```
+
+```
+for _ in range(generaciones):
+    nueva_poblacion = []
+
+    for _ in range(tamano_poblacion):
+        padre1 = seleccionar_padres(poblacion)
+        padre2 = seleccionar_padres(poblacion)
+        hijo = order_crossover(padre1, padre2)
+        mutar(hijo)
+        nueva_poblacion.append(hijo)
+
+    poblacion = nueva_poblacion
+
+    # Evaluar la nueva población
+    for ruta in poblacion:
+        longitud = calcular_longitud(ruta)
+        if longitud < mejor_longitud:
+            mejor_longitud = longitud
+            mejor_ruta = ruta
+
+return mejor_ruta, mejor_longitud
+
+
+```
+
+
+
+La mejor ruta encontrada: \[13, 2, 3, 4, 6, 12, 7, 10, 9, 8, 0, 1, 11, 5]
+Longitud total de la ruta: 34.91049160183179
+
+
+
+Para acced
 
 ![](/images/ruta_viajero.jpg)
 
