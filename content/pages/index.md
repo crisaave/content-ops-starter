@@ -243,7 +243,7 @@ sections:
     subtitle: ''
     title:
       type: TitleBlock
-      text: This Is A Big Headline
+      text: Proyectos Ciencia de Datos
       color: text-dark
   - title: Divider
     colors: bg-light-fg-dark
