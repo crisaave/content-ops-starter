@@ -167,10 +167,12 @@ return mejor_ruta, mejor_longitud
 
 ```
 
-La mejor ruta encontrada: \[13, 2, 3, 4, 6, 12, 7, 10, 9, 8, 0, 1, 11, 5]
-Longitud total de la ruta: 34.91049160183179
 
-Para acced
+
+En este caso particular, la secuencia de ciudades recomendada por el programa es la siguiente : \[13, 2, 3, 4, 6, 12, 7, 10, 9, 8, 0, 1, 11, 5]
+Y su longitud total recorrida es de 34.91
+
+De forma grafica, se puede ver la secuencia, indicando la ciudad de inicio del viaje (ciudad 13) y su posterior secuencia hasta llegar el fin del recorido (ciudad 5).
 
 ![](/images/ruta_viajero.jpg)
 
