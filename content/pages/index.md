@@ -760,7 +760,7 @@ sections:
         style: primary
         elementId: null
     badge:
-      label: ESCRIBEME
+      label: Escríbeme
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
