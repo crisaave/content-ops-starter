@@ -22,7 +22,7 @@ sections:
         elementId: ''
         type: Button
       - type: Link
-        label: Send email
+        label: email
         altText: Play
         url: crisaave@gmail.com
         showIcon: true
