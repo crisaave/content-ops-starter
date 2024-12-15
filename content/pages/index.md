@@ -21,6 +21,15 @@ sections:
         style: secondary
         elementId: ''
         type: Button
+      - type: Link
+        label: LinkedIn
+        altText: LinkedIn
+        url: www.linkedin.com/in/cristian-saavedra-flores-78849822
+        showIcon: true
+        icon: linkedin
+        iconPosition: left
+        style: secondary
+        elementId: ''
       - label: See Tutorials
         altText: ''
         url: /
