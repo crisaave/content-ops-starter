@@ -7,7 +7,7 @@ sections:
       text: "Bienvenido a mis\_ Proyectos en Ciencia de Datos"
       color: text-dark
       type: TitleBlock
-    subtitle: Cristian Saavedra Flores
+    subtitle: '@Cristian Saavedra Flores'
     text: >
       Este sitio cuenta con mis proyectos de Ciencia de Datos, que he aprendido
       y desarrollado en últimos años.
