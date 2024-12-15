@@ -243,7 +243,7 @@ sections:
     subtitle: ''
     title:
       type: TitleBlock
-      text: Proyectos Ciencia de Datos
+      text: Proyectos en Ciencia de Datos
       color: text-dark
   - title: Divider
     colors: bg-light-fg-dark
