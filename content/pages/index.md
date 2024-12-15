@@ -764,7 +764,7 @@ sections:
         style: primary
         elementId: null
     badge:
-      label: Escríbeme
+      label: ''
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
