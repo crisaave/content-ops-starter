@@ -97,6 +97,10 @@ type: PostLayout
 
 Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum
 
+<https://docs.google.com/spreadsheets/d/1YUo-K9_79w55Nyk0tZihLzLBpsHY_Ij9/edit?usp=sharing&ouid=117160480656857669696&rtpof=true&sd=true>
+
+
+
 ```
 #Se importan las librerias necesarias
 import pandas as pd
