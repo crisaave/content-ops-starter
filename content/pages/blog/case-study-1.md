@@ -87,9 +87,7 @@ styles:
     flexDirection: col
 type: PostLayout
 ---
-Dado una serie de n nodos y distancias para cada par de nodos, la idea es encontrar un viaje de ida y vuelta que tome la menor distancia pero que visite cada nodo exactamente una sola vez (ojo que la distancia del nodo i al j es la misma que del j al i).
-
-
+## Dado una serie de n nodos y distancias para cada par de nodos, la idea es encontrar un viaje de ida y vuelta que tome la menor distancia pero que visite cada nodo exactamente una sola vez (ojo que la distancia del nodo i al j es la misma que del j al i).
 
 .
 
@@ -97,9 +95,7 @@ Dado una serie de n nodos y distancias para cada par de nodos, la idea es encont
 >
 > *By Clara White - VP of Marketing*
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum 
-
-
+Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum
 
 ```
 #Se importan las librerias necesarias
@@ -112,8 +108,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 ```
 
-
-
 ```
 #Se leen los archivos de Excel (los archivos estan en el mismo directorio que el de este JupyterNotebook)
 ```
@@ -121,8 +115,6 @@ from matplotlib import pyplot as plt
 ```
 df_stp = pd.read_excel('Ciudad Burma.xlsx')
 ```
-
-
 
 ```
 #Función para calcular la distancia entre dos ciudades
@@ -151,15 +143,7 @@ coord2 = (df_stp['coord i'][j], df_stp['coord j'][j])
 distancias[i][j] = calcular_distancia(coord1, coord2)
 ```
 
-
-
-
-
-
-
 ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus teger vel convallis justo.
-
-
 
 ![](/images/ruta_viajero.jpg)
 
