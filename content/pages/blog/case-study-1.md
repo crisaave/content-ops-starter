@@ -87,15 +87,11 @@ styles:
     flexDirection: col
 type: PostLayout
 ---
-Dado una serie de n nodos y distancias para cada par de nodos, la idea es encontrar un viaje de ida y vuelta que tome la menor distancia pero que visite cada nodo exactamente una sola vez (ojo que la distancia del nodo i al j es la misma que del j al i).
+#### Dado una serie de n nodos y distancias para cada par de nodos, la idea es encontrar un viaje de ida y vuelta que tome la menor distancia, pero que visite cada nodo exactamente una sola vez (ojo que la distancia del nodo i al j es la misma que del j al i).
 
-#### Dado una serie de n nodos y distancias para cada par de nodos, la idea es encontrar un viaje de ida y vuelta que tome la menor distancia pero que visite cada nodo exactamente una sola vez (ojo que la distancia del nodo i al j es la misma que del j al i).
-
-.
-
-> Basado en el libro Hands-On Genetcringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+> Basado en el libro Hands-On Genetic Algorithms with Python
 >
-> *By Clara White - VP of Marketing*
+> *By Eyal Wirsansky - 2020 Packt Publishing*
 
 Para acceder a datos de diversas ciudades, se recomienda el siguiente link:
 
@@ -171,12 +167,8 @@ return mejor_ruta, mejor_longitud
 
 ```
 
-
-
 La mejor ruta encontrada: \[13, 2, 3, 4, 6, 12, 7, 10, 9, 8, 0, 1, 11, 5]
 Longitud total de la ruta: 34.91049160183179
-
-
 
 Para acced
 
