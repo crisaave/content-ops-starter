@@ -713,7 +713,7 @@ sections:
     subtitle: Section with a form subtitle
     text: >
       Si quieres conversar de los Proyectos de **Ciencia de Datos** o de otros
-      temas relacionados con **Química Papelera** o **Pulp & Paper (Packaging,
+      temas relacionados con **Química Papelera,** **Pulp & Paper (Packaging,
       Tissue, o Pulpa Moldeada)** me escribes.
     media:
       fields:
