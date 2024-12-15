@@ -10,7 +10,7 @@ sections:
     subtitle: '@Cristian Saavedra Flores'
     text: >
       Este sitio cuenta con mis proyectos de Ciencia de Datos, que he aprendido
-      y desarrollado en últimos años.
+      y desarrollado en los últimos años.
     actions:
       - label: Get started
         altText: ''
