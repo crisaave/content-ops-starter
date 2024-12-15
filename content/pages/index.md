@@ -196,8 +196,7 @@ sections:
         textAlign: center
   - subtitle: Empresas donde he trabajado
     images:
-      - url: /images/empathy-logo.svg
-        altText: Empathy logo
+      - altText: Empathy logo
         type: ImageBlock
       - altText: Wellster logo
         type: ImageBlock
