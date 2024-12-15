@@ -99,9 +99,6 @@ Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus
 
 ```
 #Se importan las librerias necesarias
-```
-
-```
 import pandas as pd
 import random
 import numpy as np
@@ -110,31 +107,19 @@ from matplotlib import pyplot as plt
 
 ```
 #Se leen los archivos de Excel (los archivos estan en el mismo directorio que el de este JupyterNotebook)
-```
-
-```
 df_stp = pd.read_excel('Ciudad Burma.xlsx')
 ```
 
 ```
 #Función para calcular la distancia entre dos ciudades
-```
-
-```
 def calcular_distancia(coord1, coord2):
 return np.sqrt((coord1[0] - coord2[0])**2 + (coord1[1] - coord2[1])**2)
 ```
 
 ```
 #Crear la matriz de distancias
-```
-
-```
 num_ciudades = len(df_stp)
 distancias = np.zeros((num_ciudades, num_ciudades))
-```
-
-```
 for i in range(num_ciudades):
 for j in range(num_ciudades):
 if i != j:
